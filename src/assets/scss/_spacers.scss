@@ -1,0 +1,67 @@
+@import "mixins";
+.pt45 {
+  padding-top: 45px;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.mb-5 {
+  margin-bottom: 50px;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mt-7 {
+  margin-top: 7px !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-4 {
+  margin-top: 40px !important;
+}
+
+.ml-4 {
+  margin-left: 40px;
+}
+
+.pb-200 {
+  padding-bottom: 200px;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mt-lg-auto {
+  margin-top: auto;
+  @include respond-below(md) {
+    margin-top: 0;
+  }
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
